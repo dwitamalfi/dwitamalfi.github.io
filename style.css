@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "PlusJakartaSans-Regular";
+    src: url("./assets/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PlusJakartaSans-Bold";
+    src: url("./assets/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PlusJakartaSans-ExtraBold";
+    src: url("./assets/fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PlusJakartaSans-Bold";
+    src: url("./assets/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PlusJakartaSans-Medium";
+    src: url("./assets/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+  }
+section{
+  padding: 30px;
+}
+body{
+ background-color: #2A3341;
+ font-family: 'PlusJakartaSans-Regular';
+}
+.welcome-greetings{
+    color: white;
+}
+.col-brown{
+    background-color:  #41382A;
+}
+.navbar{
+    background-color: #2A3341 !important;
+    font-family: 'Open Sans';
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-right: 60px;
+    color: white;
+}
+.navbar-brand{
+    font-weight: 700;
+    margin-left: 50px;
+    color: white !important;
+}
+.beranda{
+    padding: 30px;
+}
+#section-hero{
+  background-image: url('/assets//img/watercolor-texture-color-wallpaper.jpg');
+  height: 100vh;
+}
+.banner-desc{
+    /* padding-top: 100px ; */
+    text-align: center;
+    font-family: 'PlusJakartaSans-Regular';
+    height:100%;
+    margin-top: 25% ;
+
+}
+.social-media a {
+  margin-right: 10px;
+}
+.profile-column{
+  text-align: center;
+  /* padding-top: 100px ; */
+}
+.image-rounded {
+  /* width: 150px; */
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  text-align: center;
+}
+.col-desc-porto{
+  margin-top: 10%;
+}
+.desc-portofolio{
+  text-align: center;
+}
+.gambar-portofolio img{
+  width: 100%;
+}
+#section-portofolio{
+  height: 100vh;
+}

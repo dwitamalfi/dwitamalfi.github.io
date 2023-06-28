@@ -4,12 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Alfi's Portofolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Alfi's Portofolio</title>
 </head>
 <body>
-    <div>
-        <h1>Selamat Datang di Website Portofolio Alfi Dwitama</h1>
+    <div class="welcome-greetings">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">DWITAMALFI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-portofolio">Portofolio</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- section header -->
+        <section id="section-hero">
+          <div class="row beranda">
+              <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                  <div class="banner-desc">
+                    <div class="social-media">
+                      <a><i class="fa fa-facebook"></i></a>
+                      <a><i class="fa fa-instagram"></i></a>
+                      <a><i class="fa fa-linkedin"></i></a>
+                    </div>
+                      
+                      Hello, I'm Alfi
+                      <h4><b>Web Developer</b></h4>
+                      <p>Knack of building applications with front and back end operations</p>
+                      <button class="btn btn-warning">Get Resume</button>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                  <div class="profile-column">
+                    <img src="/assets/img/29045-no-bg.png" class="image-rounded"/>
+                  </div>
+              </div>
+          </div>
+        </section>
+       <!-- end of section header -->
+       <!-- section portofolio -->
+        <section id="section-portofolio">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               
+                  <div class="portofolio-section">
+                    <div class="row">
+                      <div class="col-lg-6 col-lg-6 col-sm-12 col-xs-12 col-desc-porto">
+                        <div class="desc-portofolio">
+                          <h2>Sistem Informasi Pusat Kesehatan Masyarakat</h2>
+                          <p>Pengembangan website menggunakan bahasa pemrograman php dengan memanfaatkan framework CodeIgniter.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-lg-6 col-sm-12 col-xs-12">
+                        <div class="gambar-portofolio">
+                            <img src="/assets/img//sikda-prototype no background.png"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+       <!-- end of section portofolio -->
     </div>
 </body>
 </html>
+<script>
+   $(window).ready(function(){
+      
+   })
+</script>
